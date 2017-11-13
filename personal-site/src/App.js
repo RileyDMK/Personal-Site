@@ -34,7 +34,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="container">
+      <div className="container-fluid App">
         {/* <h4>Todo Count: <span className="badge badge-secondary">{this.state.todos.length}</span></h4>
           <ul className="list-group">
           {this.state.todos.map((todo, index) =>
@@ -43,6 +43,7 @@ class App extends Component {
             </li>
           )}
         </ul> */}
+        <div id="hero"></div>
         <Nav></Nav>
       </div>
     );
@@ -58,7 +59,7 @@ class Nav extends Component {
   }
   render(){
     return(
-      <nav className="navbar navbar-expand-lg fixed-bottom navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg fixed-bottom navbar-dark bg-*">
         <a className="navbar-brand" href="#">Riley Mathis</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

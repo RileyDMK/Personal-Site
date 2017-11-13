@@ -1,5 +1,7 @@
 .App {
-  text-align: center; }
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0; }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -13,6 +15,22 @@
 
 .App-intro {
   font-size: large; }
+
+body {
+  background-color: rgba(100, 145, 28, 0.7); }
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/ginko.jpg);
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */ }
+
+.navbar {
+  background-color: #478110; }
 
 @media (min-width: 768px) {
   .navbar-nav {
