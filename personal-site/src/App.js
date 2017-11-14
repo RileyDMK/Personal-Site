@@ -44,6 +44,7 @@ class App extends Component {
           )}
         </ul> */}
         <div id="hero"></div>
+        <h2 id="myBrand">Riley Mathis</h2>
         <Nav></Nav>
       </div>
     );
@@ -60,7 +61,7 @@ class Nav extends Component {
   render(){
     return(
       <nav className="navbar navbar-expand-lg fixed-bottom navbar-dark bg-*">
-        <a className="navbar-brand" href="#">Riley Mathis</a>
+        {/* <a className="navbar-brand" href="#">Riley Mathis</a> */}
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

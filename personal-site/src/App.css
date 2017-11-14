@@ -29,6 +29,15 @@ body {
   filter: alpha(opacity=50);
   /* For IE8 and earlier */ }
 
+#myBrand {
+  opacity: 1;
+  position: absolute;
+  margin: .5em;
+  top: 1em;
+  left: 1em;
+  font-weight: 100;
+  color: white; }
+
 .navbar {
   background-color: #478110; }
 
