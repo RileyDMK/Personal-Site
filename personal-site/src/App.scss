@@ -1,27 +1,14 @@
+$bgColor: rgba(100,145,28,0.7);
+$navColor: #478110;
 .App {
   text-align: center;
   padding-left: 0;
   padding-right: 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
 
 body {
-  background-color: rgba(100,145,28,0.7);
+  background-color: $bgColor;
 }
 
 #hero {
@@ -45,7 +32,7 @@ body {
 }
 
 .navbar{
-  background-color: #478110;
+  background-color: $navColor;
 }
 
 @media (min-width: 768px){
@@ -63,8 +50,3 @@ body {
     }
 }//color="#518231"
 // color="#699a27"
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
