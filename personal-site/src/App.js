@@ -45,7 +45,7 @@ class App extends Component {
         </ul> */}
         <div id="hero"></div>
         <h2 id="myBrand">Riley Mathis</h2>
-        <img src="/images/tempProfile.jpg"></img>
+        <img id="profile" src="/images/tempProfile.jpg"></img>
         <Nav></Nav>
       </div>
     );
