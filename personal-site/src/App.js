@@ -51,7 +51,7 @@ class App extends Component {
     );
   }
 }
-
+// todo: add alt text and dropdown
 class Nav extends Component {
   constructor(props){
     super(props);
